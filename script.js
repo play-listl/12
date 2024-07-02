@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const points = {
         'Leonardo da Vinci': [20, 12, 8, 6, 4, 3, 2, 0],
         'Galileo Galilei': [16, 16, 11, 7, 5, 4, 2, 1],
-        'Johannes Kepler'': [12, 12, 14, 9, 7, 5, 3, 2],
+        'Johannes Kepler': [12, 12, 14, 9, 7, 5, 3, 2],
         'Isaac Newton': [10, 10, 11, 12, 8, 6, 4, 4],
         'Marie Curie': [8, 8, 8, 9, 11, 8, 5, 5],
         'Albert Einstein': [6, 6, 7, 7, 8, 10, 7, 5],

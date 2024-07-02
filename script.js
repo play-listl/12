@@ -9,25 +9,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const closeScoringModal = document.getElementById('close-scoring-modal');
 
     const points = {
-        'Cristiano Ronaldo': [20, 12, 8, 6, 4, 3, 2, 0],
-        'Lionel Messi': [16, 16, 11, 7, 5, 4, 2, 1],
-        'Selena Gomez': [12, 12, 14, 9, 7, 5, 3, 2],
+        'Leonardo da Vinci': [20, 12, 8, 6, 4, 3, 2, 0],
+        'Galileo Galilei': [16, 16, 11, 7, 5, 4, 2, 1],
+        'Isaac Newton': [12, 12, 14, 9, 7, 5, 3, 2],
         'Kylie Jenner': [10, 10, 11, 12, 8, 6, 4, 4],
-        'Dwayne Johnson': [8, 8, 8, 9, 11, 8, 5, 5],
-        'Ariana Grande': [6, 6, 7, 7, 8, 10, 7, 5],
-        'Kim Kardashian': [5, 5, 5, 6, 7, 9, 9, 7],
-        'Beyoncé': [4, 4, 4, 4, 5, 6, 7, 8]
+        'Marie Curie': [8, 8, 8, 9, 11, 8, 5, 5],
+        'Albert Einstein': [6, 6, 7, 7, 8, 10, 7, 5],
+        'Charles Darwin': [5, 5, 5, 6, 7, 9, 9, 7],
+        'Nikola Tesla': [4, 4, 4, 4, 5, 6, 7, 8]
     };
 
     const correctOrder = [
-        { city: 'Cristiano Ronaldo', year: '629 million' },
-        { city: 'Lionel Messi', year: '502 million' },
-        { city: 'Selena Gomez', year: '428 million' },
-        { city: 'Kylie Jenner', year: '399 million' },
-        { city: 'Dwayne Johnson', year: '397 million' },
-        { city: 'Ariana Grande', year: '379 million' },
-        { city: 'Kim Kardashian', year: '363 million' },
-        { city: 'Beyoncé', year: '319 million' }
+        { city: 'Leonardo da Vinci', year: '1452' },
+        { city: 'Galileo Galilei', year: '1564' },
+        { city: 'Johannes Kepler', year: '1571' },
+        { city: 'Isaac Newton', year: '1643' },
+        { city: 'Marie Curie', year: '1867' },
+        { city: 'Albert Einstein', year: '1879' },
+        { city: 'Charles Darwin', year: '1809' },
+        { city: 'Nikola Tesla', year: '1856' }
     ];
 
     let gamesPlayed = 0;
